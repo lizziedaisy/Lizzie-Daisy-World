@@ -1,0 +1,16 @@
+---
+layout: blogpost
+city:
+categories:
+description1: 
+description2:
+description3:
+pic1: /images/travel1.jpg
+pic2:
+pic3:
+pic4:
+pic5:
+pic6:
+pic7:
+pic8:
+---
