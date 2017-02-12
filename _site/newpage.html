@@ -1,25 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  
+
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+<!-- THIS ONE IS GOOGLE FONT -->
+
+<link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Open+Sans" rel="stylesheet">
 
 
-    <div class="dropdown-nav">
-        <a href="#">Belgium</a>
-           <div class="dropdown-content">
-            <ul style="list-style-type:none" class="indented clickstyle">
-              {% for post in site.categories.Belgium %}
-              <li>
-                <a href="{{post.url}}"> {{post.city}} </a>
-              </li>
-              {% endfor %}
 
-              </li>
-              <ul>
-          </div>
+<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+
+<link href="https://fonts.googleapis.com/css?family=PT+Serif|Sansita" rel="stylesheet">
+
+
+
+<!--  THIS ONE IS GRIDLEX -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/gridlex/2.2.4/gridlex.min.css">
+
+<!-- link to owl carousel -->
+
+<link rel="stylesheet" href="/css/owl.carousel.min.css">
+<link rel="stylesheet" href="/css/owl.theme.default.min.css">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- THIS ONE IS MINE -->
+<link rel="stylesheet" href="/css/main.css">
+
+
+</head>
+
+<!-- this needs to have an animation on the left, and a H2 menu with the following options, header will take up 1/5 or 1/6 of the screen fixed (20%)
+animation should link back to the home page - if not possible add home to the nav -->
+<body>
+
+
+<!-- THIS NEEDS EDITING - EDIT DIVS  -->
+    <header class="grid-middle" id="header">
+     <h1 id="fuckoffheading"> Lizzie Daisy World</h1>
+
+      <div class="col-6_md-12_sm-0 fixed hidden-on-mobile">
+
+<!-- the following code is for the animation -->
+        <div class="content">
+    <div class="visible">
+      <p><span class="left">[</span> Lizzie Daisy
+      <ul>
+        <li class="worldclass"> World </li>
+        <li> Amsterdam </li>
+        <li> Scotland </li>
+        <li> London </li>
+        </ul>
+      <span class="right">]</span>
+      </p>
+
+    </div>
+
+  </div>
+
+
+
+
+        <!-- <img class="logo" src="/images/demo-logo.png" alt="Brand Name Here"> -->
+        <!-- animation will go here -->
+        <!-- <h1> Lizzie Daisy World</h1> -->
+</div>
+
+
+      <div class="col-6_sm-12 mob-hide">
+        <nav class="right">
+
+           <!-- insert the correct links here -->
+            <a href="/index.html" class="navhome"> Home </a>
+            <a href="/countries.html" class="navlink"> Countries </a>
+            <a href="/about.html" class="navlink"> About </a>
+
+          <a href="/contact.html"class="navlink"> Contact </a>
+
+          <a href="https://twitter.com/lizziedaisy" class="twitterlink"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
+
+        </nav>
       </div>
-    <div class="dropdown-nav">
-        <a href="#">France</a>
-           <div class="dropdown-content">
-            <a href="{{post.url}}"> {{post.city}} </a>
-          </li>
-          {% endfor %}
 
-          </div>
-      </div>
+
+
+  </header>
+<!-- this div separates the content from the fixed header -->
+<div id="content">
+<!--  this will be the blog page-->
+
+<div class="grid_sm-center">
+
+
+  <div class="col-4 instagram" id="hidden-on-mobile">
+    <div class="left-countries">
+
+  <!-- LightWidget WIDGET -->
+
+
+  <script src="//lightwidget.com/widgets/lightwidget.js"></script><iframe src="//lightwidget.com/widgets/416f1fe6cdbc55cab86dc53d06462688.html" scrolling="no" allowtransparency="true" class="lightwidget-widget" style="width: 100%; border: 0; overflow: hidden;"></iframe>
+
+  </div>
+</div>
+
+</div>
+
+<script src="/js/jquery.js"></script>
+<script src="/js/owl.carousel.min.js"></script>
+<script src="/js/script.js">
+</script>
+  </body>
+  </html>

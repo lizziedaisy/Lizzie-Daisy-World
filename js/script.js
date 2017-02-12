@@ -32,6 +32,12 @@
   })
 });
 
+$( document ).ready(function() {
+   $(".dropdown-nav").click(function(){
+     $(this).children(".dropdown-content").slideToggle();
+   });
+});
+
 
 // $ means talk to jquery library
 // first set of brackets defines the element you want to interact with
