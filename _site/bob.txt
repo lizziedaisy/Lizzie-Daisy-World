@@ -121,8 +121,6 @@ animation should link back to the home page - if not possible add home to the na
         <li class="countryname clickstyle">Germany
        <ul style="list-style-type:none" class="indented clickstyle">
     
-         <li><a href="/germany/2016/12/10/Munich.html"> Munich </a> </li>
-    
        </ul>
      </li>
      <!-- end of next country area  -->
