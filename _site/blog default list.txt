@@ -94,11 +94,11 @@ animation should link back to the home page - if not possible add home to the na
 <div class="blogpage">
 
   <div class="blogtitle">
-   <h2>Lille</h2>
+   <h2></h2>
   </div>
 
   <div class="blogtext">
-    <br><p>One of my favourite people, Gemma, spent a semester abroad teaching English in France. We decided to meet up halfway between our homes in the pretty French city of Lille.</p>
+    <br><p></p>
   </div>
 
   <div id="blogphotos" class="photogrid grid-center">
@@ -121,7 +121,7 @@ animation should link back to the home page - if not possible add home to the na
   </div>
 
   <div class="blogtext">
-     <p>We spent the day wandering, which is always the best way to see a city. It was all Christmassy and lovely.</p>
+     <p></p>
   </div>
 
   <div id="blogphotos" class="photogrid grid-center">
@@ -144,7 +144,7 @@ animation should link back to the home page - if not possible add home to the na
   </div>
 
   <div class="blogtext">
-     <p>I would love to go back to Lille to see it in the summer and visit the zoo, because it was closed. It's so easy to get to, and I spent less than 50 euro on train tickets.
+     <p>
 
   <div id="blogphotos" class="photogrid grid-center">
 

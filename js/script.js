@@ -31,7 +31,11 @@
     autoplay:true,
   });
 
-  
+
+   $(".dropdown-nav").click(function(){
+     $(this).children(".dropdown-content").slideToggle();
+   });
+
 
 });
 

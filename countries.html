@@ -20,54 +20,57 @@ layout: default
 
 <div class="col-5_sm-12">
   <div class="countrytitle">
-    <h2> "Where do you want to go?"</h2>
-  </div>
-
+    <h2>"Where do you want to go?"</h2>
+</div>
+<div class="countryall">
+  <h6> Choose a country... </h6> <br>
   <div class="list dropdown-nav">
     <ul style="list-style-type:none" class="countrylist">
+      <li class="countryname dropdown-nav clickstyle"> <p> --> </p> Belgium
+      <ul style="list-style-type:none" class="indented dropdown-content clickstyle">
+      {% for post in site.categories.Belgium %}
+        <li><a href="{{post.url}}" class="cityname"> {{post.city}} </a> </li>
+      {% endfor %}
+      </ul>
+      </li>
 
-        <li class="countryname clickstyle"> Belgium
-        <ul style="list-style-type:none" class="indented clickstyle">
-        {% for post in site.categories.Belgium %}
-          <li><a href="{{post.url}}" class="cityname"> {{post.city}} </a> </li>
-        {% endfor %}
-        </ul>
-        </li>
+          <li class="countryname dropdown-nav clickstyle"> <p> --> </p> France
+          <ul style="list-style-type:none" class="indented dropdown-content clickstyle">
+          {% for post in site.categories.France %}
+            <li><a href="{{post.url}}" class="cityname"> {{post.city}} </a> </li>
+          {% endfor %}
+          </ul>
+          </li>
 
-        <li class="countryname clickstyle">France
-        <ul style="list-style-type:none" class="indented clickstyle">
-        {% for post in site.categories.France %}
-          <li><a href="{{post.url}}"> {{post.city}} </a> </li>
-        {% endfor %}
-        </ul>
-        </li>
+          <li class="countryname dropdown-nav clickstyle"> <p> --> </p> Germany
+          <ul style="list-style-type:none" class="indented dropdown-content clickstyle">
+          {% for post in site.categories.Germany %}
+            <li><a href="{{post.url}}" class="cityname"> {{post.city}} </a> </li>
+          {% endfor %}
+          </ul>
+          </li>
 
-        <!-- this is the beginning of the country area -->
-        <li class="countryname clickstyle">Germany
-       <ul style="list-style-type:none" class="indented clickstyle">
-    {% for post in site.categories.Germany %}
-         <li><a href="{{post.url}}"> {{post.city}} </a> </li>
-    {% endfor %}
-       </ul>
-     </li>
+          <li class="countryname dropdown-nav clickstyle"> <p> --> </p> Iceland
+          <ul style="list-style-type:none" class="indented dropdown-content clickstyle">
+          {% for post in site.categories.Iceland %}
+            <li><a href="{{post.url}}" class="cityname"> {{post.city}} </a> </li>
+          {% endfor %}
+          </ul>
+          </li>
+
+          <li class="countryname dropdown-nav clickstyle"> <p> --> </p> The Netherlands
+          <ul style="list-style-type:none" class="indented dropdown-content clickstyle">
+          {% for post in site.categories.Netherlands %}
+            <li><a href="{{post.url}}" class="cityname"> {{post.city}} </a> </li>
+          {% endfor %}
+          </ul>
+          </li>
+
+
      <!-- end of next country area  -->
 
-        <li class="countryname clickstyle">Iceland
-        <ul style="list-style-type:none" class="indented clickstyle">
-        {% for post in site.categories.Iceland %}
-          <li><a href="{{post.url}}"> {{post.city}} </a> </li>
-        {% endfor %}
-        </ul>
-        </li>
 
-        <!-- beginning of the Netherlands area -->
-       <li class="countryname clickstyle">The Netherlands
-      <ul style="list-style-type:none" class="indented clickstyle">
-{% for post in site.categories.Netherlands %}
-        <li><a href="{{post.url}}" class="cityname"> {{post.city}} </a> </li>
-{% endfor %}
-      </ul>
-    </li>
+
 
 
 

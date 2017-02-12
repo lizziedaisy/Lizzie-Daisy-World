@@ -270,10 +270,18 @@ nav a {
 
 .countrytitle h2 {
   display: inline-block;
-  margin: 50px;
+  margin: 30px;
+  margin-bottom: 5px;
   /*background-color: orange;*/
   padding: 20px;
 
+
+}
+
+.countrytitle h6 {
+  display: inline-block;
+  margin-left: 10vw;
+  padding: 10px;
 
 }
 
@@ -285,23 +293,41 @@ nav a {
 
 }
 
-.countrylist {
+/*.countrylist {
   padding-left: 100px;
-}
+}*/
 
 .countryname {
   color: turquoise;
   /*border-bottom: black 1px dotted;*/
   font-family: 'Open Sans', sans-serif;
+  cursor: pointer;
 
 }
 
-.list {
+.countryall {
+  margin: 30px;
+  padding-left: 45px;
+  padding-top:20px;
+  padding-bottom:20px;
+  border: purple 2px solid;
+}
+
+/*.list {
   padding-left: 50px;
-}
+}*/
 
 .indented {
   padding: 10px;
+}
+
+.dropdown-content {
+  display: none;
+
+}
+
+.dropdown-nav p {
+  color: black;
 }
 
 /*specific to blog post page*/
@@ -435,6 +461,17 @@ input, textarea {
 
     }
 
+    .countrytitle h6 {
+      display: none;
+    }
+
+    .countrytitle h2 {
+      display: inline-block;
+      margin: 30px;
+      margin-bottom: 5px;
+      /*background-color: orange;*/
+      padding: 5px;
+      }
 
 
  /*responsive bit for the contact form */
@@ -474,8 +511,21 @@ input, textarea {
 
  }
 
+ .dropdown-content {
+   display: block;
+
+ }
+
+ .countrytitle h6 {
+   display: inline-block;
+   margin-left: 2vw;
+   padding: 2px;
+
+ }
 
 }
+
+
 
 @media screen and (max-width: 992px) {
   .owl-item.cloned{
@@ -498,6 +548,6 @@ input, textarea {
 
 @media screen and (min-width: 769px) {
   #fuckoffheading {
-    display:none;
+    display:none !important;
     text-align: center;
   }
