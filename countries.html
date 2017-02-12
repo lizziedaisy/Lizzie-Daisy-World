@@ -66,14 +66,16 @@ layout: default
           </ul>
           </li>
 
+          <li class="countryname dropdown-nav clickstyle"> <p> --> </p> Portugal
+          <ul style="list-style-type:none" class="indented dropdown-content clickstyle">
+          {% for post in site.categories.Portugal %}
+            <li><a href="{{post.url}}" class="cityname"> {{post.city}} </a> </li>
+          {% endfor %}
+          </ul>
+          </li>
+
 
      <!-- end of next country area  -->
-
-
-
-
-
-
 
 
 </div>
