@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  {% include head.html %}
+
+</head>
+
+<!-- this needs to have an animation on the left, and a H2 menu with the following options, header will take up 1/5 or 1/6 of the screen fixed (20%)
+animation should link back to the home page - if not possible add home to the nav -->
+<body>
+
+
+<!-- THIS NEEDS EDITING - EDIT DIVS  -->
+    <header class="grid-middle" id="header">
+     <h1 id="fuckoffheading"> Lizzie Daisy World</h1>
+
+      <div class="col-6_md-12_sm-0 fixed hidden-on-mobile">
+
+<!-- the following code is for the animation -->
+        <div class="content">
+    <div class="visible">
+      <p><span class="left">[</span> Lizzie Daisy
+      <ul>
+        <li class="worldclass"> World </li>
+        <li> Amsterdam </li>
+        <li> Scotland </li>
+        <li> London </li>
+        </ul>
+      <span class="right">]</span>
+      </p>
+
+    </div>
+
+  </div>
+
+
+
+
+        <!-- <img class="logo" src="/images/demo-logo.png" alt="Brand Name Here"> -->
+        <!-- animation will go here -->
+        <!-- <h1> Lizzie Daisy World</h1> -->
+</div>
+
+
+      <div class="col-6_sm-12 mob-hide">
+        <nav class="right">
+
+           <!-- insert the correct links here -->
+            <a href="/index.html" class="navhome"> Home </a>
+            <a href="/countries.html" class="navlink"> Countries </a>
+            <a href="/about.html" class="navlink"> About </a>
+
+          <a href="/contact.html"class="navlink"> Contact </a>
+
+          <a href="https://twitter.com/lizziedaisy" class="twitterlink"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
+
+        </nav>
+      </div>
+
+
+
+  </header>
+<!-- this div separates the content from the fixed header -->
+<div id="content">
+{{content}}
+</div>
+
+<script src="/js/jquery.js"></script>
+<script src="/js/owl.carousel.min.js"></script>
+<script src="/js/script.js">
+</script>
+  </body>
+  </html>
