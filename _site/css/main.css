@@ -368,7 +368,9 @@ nav a {
 
 }
 
-
+.blogtext {
+  padding: 0 5px;
+}
 
 /*specific to contact page*/
 
@@ -471,6 +473,10 @@ input, textarea {
       margin-bottom: 5px;
       /*background-color: orange;*/
       padding: 5px;
+      }
+
+      .blogtext {
+        padding: 0 5px;
       }
 
 
