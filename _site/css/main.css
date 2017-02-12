@@ -143,7 +143,7 @@ nav {
 /* details about h1-h6, p  */
 h1 {
   font-size: 20px;
-  font-family: 'Abril Fatface', cursive;
+  font-family: 'Sansita', sans-serif;
   color:black;
   text-align: center;
   width: 100%;
@@ -158,12 +158,13 @@ h2 {
 
 .stytle::before{
   content: "[";
-  color: purple;
+  color: orange;
 
 }
 
 .stytle::after{
-  content: "]"
+  content: "]";
+  color: orange;
 }
 
 h3 {
@@ -283,7 +284,7 @@ nav a {
 .countrytitle h2 {
   display: inline-block;
   margin: 50px;
-  border: 1px black dotted;
+  /*background-color: orange;*/
   padding: 20px;
 
 
@@ -362,10 +363,45 @@ nav a {
 .contact-page {
   /*margin-top: 75px;
   margin-bottom: 30px;*/
-  background-color: purple;
+  /*background-color: purple;*/
   min-height: 90vh;
   min-width: 100vw;
   opacity: 0.9;
+  padding: 10%;
+}
+
+.contact-parent {
+  background-color:purple;
+  width: 20vw;
+  height: 55vh;
+  position: relative;
+}
+
+.contact-child {
+  background-color: turquoise;
+  width: 45vw;
+  min-height: 25vh;
+  position: absolute;
+  bottom: 5vh;
+  left: 15vw;
+  padding: 6%;
+}
+
+.contact-parent h2 {
+  /*background-color: yellow;*/
+  min-width: 18vw;
+  min-height: 5vh;
+  position: absolute;
+  bottom: 36vh;
+  left: 44vw;
+  padding: 5%;
+}
+
+input, textarea {
+  display: block;
+  font-size: 20px;
+  margin: 2vh auto;
+  width: 60%;
 
 }
 
@@ -399,6 +435,58 @@ nav a {
       padding-right: 20px;*/
       padding-top: 0px;
     }
+
+    .countrytitle h2 {
+      font-size: 20px;
+      color: orange;
+      border: none;
+      margin: 5px auto;
+    }
+
+    .countrylist {
+      padding-left: 5vw;
+
+    }
+
+
+
+ /*responsive bit for the contact form */
+
+.contact-parent {
+  background-color:purple;
+  width: 100vw;
+  height: 100vh;
+  position: static;
+ }
+
+.contact-child {
+  background-color: turquoise;
+  width: 90vw;
+  min-height: 60vh;
+  position: static;
+  padding: 6%;
+ }
+
+.contact-parent h2 {
+  margin: auto;
+  position: static;
+  min-width: 18vw;
+  min-height: 5vh;
+  text-align: center;
+ }
+
+.contact-page {
+  padding: 10% 0;
+ }
+
+ input, textarea {
+  display: block;
+  font-size: 20px;
+  margin: 2vh auto;
+  width: 60%;
+
+ }
+
 
 }
 
