@@ -7,11 +7,11 @@ description2: "We went up the famous Zugspitze and spent all day up on top of th
 description3: 'Garmisch has no end of things to do and places to eat. We explored the beautiful Partnachklamm frozen waterfalls, climbed the wonderfully named Mount Wank, wandered the pretty streets, and ate as much as we could.'
 pic1_path: /uploads/img-2131.JPG
 pic2_path: /uploads/img-2163.JPG
-pic3_path:
-pic4_path:
-pic5_path:
-pic6_path:
-pic7_path:
+pic3_path: /uploads/img-2124.JPG
+pic4_path: /uploads/fullsizeoutput-ed4.jpeg
+pic5_path: /uploads/fullsizeoutput-ed5.jpeg
+pic6_path: /uploads/img-0793.JPG
+pic7_path: /uploads/img-2317.JPG
 pic8_path: /uploads/img-2083.JPG
 ---
 
