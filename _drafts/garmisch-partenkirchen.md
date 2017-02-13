@@ -1,7 +1,7 @@
 ---
 layout: blogpost
-city: Lisbon
-category: Portugal
+city: Garmisch Partenkirchen
+category: Germany
 description1:
 description2:
 description3:
@@ -14,3 +14,5 @@ pic6_path:
 pic7_path:
 pic8_path:
 ---
+
+
