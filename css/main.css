@@ -368,6 +368,10 @@ nav a {
 
 }
 
+.flip {
+    transform: rotateX(180deg);
+}
+
 .blogtext {
   padding: 0 5px;
 }
