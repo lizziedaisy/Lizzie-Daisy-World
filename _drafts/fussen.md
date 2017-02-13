@@ -5,12 +5,12 @@ category: Portugal
 description1:
 description2:
 description3:
-pic1: /images/travel1.jpg
-pic2:
-pic3:
-pic4:
-pic5:
-pic6:
-pic7:
-pic8:
+pic1_path: /images/travel1.jpg
+pic2_path:
+pic3_path:
+pic4_path:
+pic5_path:
+pic6_path:
+pic7_path:
+pic8_path:
 ---
